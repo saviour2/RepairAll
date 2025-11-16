@@ -1,23 +1,32 @@
 {
-  "name": "copy-of-ai-repair-assistant",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "@google/genai": "^1.25.0",
-    "@auth0/auth0-react": "^2.8.0"
-  },
-  "devDependencies": {
-    "@types/node": "^22.14.0",
-    "@vitejs/plugin-react": "^5.0.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
-  }
+	"name": "copy-of-ai-repair-assistant",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "eslint . --ext ts,tsx --max-warnings=0"
+	},
+	"dependencies": {
+		"react": "^19.2.0",
+		"react-dom": "^19.2.0",
+		"@google/genai": "^1.25.0",
+		"@auth0/auth0-react": "^2.8.0"
+	},
+	"devDependencies": {
+		"@types/node": "^22.14.0",
+		"@vitejs/plugin-react": "^5.0.0",
+		"@eslint/js": "^9.16.0",
+		"@typescript-eslint/eslint-plugin": "^8.15.0",
+		"@typescript-eslint/parser": "^8.15.0",
+		"eslint": "^9.16.0",
+		"eslint-plugin-react": "^7.37.1",
+		"eslint-plugin-react-hooks": "^5.0.0",
+		"eslint-plugin-react-refresh": "^0.4.12",
+		"globals": "^15.12.0",
+		"typescript": "~5.8.2",
+		"vite": "^6.2.0"
+	}
 }
